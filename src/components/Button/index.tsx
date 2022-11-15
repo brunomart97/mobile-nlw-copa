@@ -5,7 +5,7 @@ interface ButtonProps extends IButtonProps {
   type?: 'PRIMARY' | 'SECUNDARY'
 }
 
-export const Button = ({ title, type = 'PRIMARY', ...rest }: ButtonProps) => {
+export function Button({ title, type = 'PRIMARY', ...rest }: ButtonProps) {
   return (
     <ButtonNativeBase
       w="full"
