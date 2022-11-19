@@ -3,6 +3,7 @@
     "name": "mobile-nlw-copa",
     "slug": "mobile-nlw-copa",
     "version": "1.0.0",
+    "scheme": "mobile-nlw-copa",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
