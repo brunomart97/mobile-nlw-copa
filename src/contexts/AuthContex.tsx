@@ -45,8 +45,8 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
     }
   }
 
-  async function signInWithGoogle(accessToken: string) {
-    console.log('TOKEN DE AUTH: ', accessToken)
+  async function signInWithGoogle(access_token: string) {
+    console.log('TOKEN DE AUTH: ', access_token)
   }
 
   useEffect(() => {
